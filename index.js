@@ -14,7 +14,7 @@ bot.on('message',message => {
     if (message.content === "salut mon gros");
     message.reply("bonsoir");
     console.log("commande bonjour ok");
-}
+    }
+});
 
-  });
 bot.login(process.env.Token);
