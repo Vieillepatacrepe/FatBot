@@ -9,7 +9,7 @@ bot.on ("ready",function() {
 });
 
 bot.on('message',message => {
-    if (message.content === prefix + "helpmeindying") {
+    if (message.content === prefix + "helpmeimdying") {
         message.channel.sendMessage("vas prendre un défibrilateur");
     }
 
@@ -19,4 +19,4 @@ bot.on('message',message => {
 }
 
   });
-  bot.login(process.env.TOKEN);
+  bot.login(process.env.Token);
